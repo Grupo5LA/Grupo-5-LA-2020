@@ -26,6 +26,6 @@ ESTADO *inicializar_estado() {
     e-> jogador_atual = 1;
     e-> num_jogadas = 0;
 
-
+    printf ("Vez do jogador %d\n", e->jogador_atual);
     return e;
 }
